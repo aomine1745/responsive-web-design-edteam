@@ -16,18 +16,22 @@ body{
 }
 */
 
-/* landscape | portrait */
-/*
-@media screen and (max-width: 1024px) and (orientation: landscape){
+/* landscape(horizontal) | portrait(vertical) */
+@media screen and (orientation: landscape){
 	body{
 		background-color: yellow;
 	}
 }
-*/
+/*@media screen and (max-width: 1024px) and (orientation: landscape){
+	body{
+		background-color: yellow;
+	}
+	}*/
 
-/* min-aspect-ratio, max-aspect-ratio, device-aspect-ratio */
-@media screen and (min-aspect-ratio:4/3){
+
+	/* min-aspect-ratio, max-aspect-ratio, device-aspect-ratio */
+/*@media screen and (min-aspect-ratio:4/3){
 	body{
 		background-color: yellow;
 	}
-}
+	}*/
