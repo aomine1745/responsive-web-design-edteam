@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: red;
+}
+
+/*min-width | max-width */
+/*
+@media screen and (max-width: 600px){
+	body{
+		background-color: yellow;
+	}
+}
+*/
+
+/* landscape | portrait */
+/*
+@media screen and (max-width: 1024px) and (orientation: landscape){
+	body{
+		background-color: yellow;
+	}
+}
+*/
+
+/* min-aspect-ratio, max-aspect-ratio, device-aspect-ratio */
+@media screen and (min-aspect-ratio:4/3){
+	body{
+		background-color: yellow;
+	}
+}
