@@ -16,7 +16,7 @@ body{
 }
 */
 
-/* landscape(horizontal) | portrait(vertical) */
+/* landscape(horizontal width > height) | portrait(vertical heigth > width) */
 @media screen and (orientation: landscape){
 	body{
 		background-color: yellow;
